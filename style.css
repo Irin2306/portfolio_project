@@ -36,6 +36,7 @@ p {
 
 img {
   border: 2px solid #463a40;
+  border-radius: 5px;
 }
 
 .hero {
@@ -97,10 +98,29 @@ img {
   padding-left: 60px;
 }
 
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
+    text-align: center;
   }
 
   h2 {
@@ -116,5 +136,10 @@ img {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .image-fluid {
+    display: block;
+    margin: auto;
   }
 }
